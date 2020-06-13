@@ -39,16 +39,19 @@ export default function LoginScreen({ navigation }) {
         )}
       </Formik>
       <View>
-        <TouchableOpacity>
-          <Text style={styles.loginButton}>Login</Text>
+        <TouchableOpacity onPress={() => navigation.navigate("Main")}>
+          <Text style={styles.loginButton}>Log In</Text>
         </TouchableOpacity>
       </View>
 
       <View style={styles.account}>
-        <Text style={styles.pw}>Forgot password</Text>
-        <Text style={styles.pw} onPress={() => navigation.navigate("Account")}>
-          Sign up for an account
-        </Text>
+        <TouchableOpacity>
+          <Text style={styles.pw}>Forgot password</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={() => navigation.navigate("Account")}>
+          <Text style={styles.pw}>Sign up for an account</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -72,6 +75,7 @@ const styles = StyleSheet.create({
   appName: {
     paddingTop: 20,
     fontSize: 20,
+    fontWeight: "bold",
   },
   textInput: {
     height: 40,
@@ -86,10 +90,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
   },
   loginButton: {
-    backgroundColor: "#FE8A71",
+    backgroundColor: "#EB6123",
     borderWidth: 1,
     borderRadius: 15,
-    color: "white",
+    color: "black",
     fontSize: 14,
     fontWeight: "bold",
     padding: 5,
