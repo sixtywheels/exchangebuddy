@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833192468847",
+    "firebase_url": "https://my-exchange-buddy.firebaseio.com",
+    "project_id": "my-exchange-buddy",
+    "storage_bucket": "my-exchange-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833192468847:android:b67772f64d389af826489a",
+        "android_client_info": {
+          "package_name": "com.exchange.myexchangebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833192468847-e16f9qf4v1fn7h5ln69ildcfnrn24q2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR-wATLpN_FFkWxZXbDYEx5EKXqeZp84o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833192468847-e16f9qf4v1fn7h5ln69ildcfnrn24q2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
